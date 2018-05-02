@@ -25,7 +25,7 @@ SECRET_KEY = '*mje2t(_um2ddmo#ou#r8@^uys++vx$w*&m29)s*r$c#ht!4ps'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['website-3vrm.herokuapp.com']
+ALLOWED_HOSTS = ['3vrm.com']
 
 
 # Application definition
@@ -129,7 +129,7 @@ STATIC_URL = '/var/www/vhosts/3vrm.com/httpdocs/home'
 #    os.path.join(BASE_DIR, "static"),
 #)
 
-STATIC_ROOT = '/static'
+STATIC_ROOT = '/static/'
 
 MEDIA_URL = "/media/"
 
