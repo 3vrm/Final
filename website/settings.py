@@ -25,7 +25,7 @@ SECRET_KEY = '*mje2t(_um2ddmo#ou#r8@^uys++vx$w*&m29)s*r$c#ht!4ps'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['3vrm.com']
+ALLOWED_HOSTS = ['www.3vrm.com']
 
 
 # Application definition
@@ -123,7 +123,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = '/var/www/vhosts/3vrm.com/httpdocs/home/staticfiles'
+STATIC_URL = '/var/www/vhosts/3vrm.com/httpdocs/home/'
 
 #STATICFILES_DIRS = (
 #    os.path.join(BASE_DIR, "static"),
