@@ -129,7 +129,7 @@ STATIC_URL = '/var/www/vhosts/3vrm.com/httpdocs/home/'
 #    os.path.join(BASE_DIR, "static"),
 #)
 
-STATIC_ROOT = ''
+STATIC_ROOT = '/home/staticfiles/'
 
 MEDIA_URL = "/media/"
 
