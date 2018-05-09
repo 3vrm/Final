@@ -47,3 +47,6 @@ def successView(request):
 
 def risk(request):
 	return render(request, 'home/risk.html')
+
+def jobs(request):
+	return render(request, 'home/jobs.html')

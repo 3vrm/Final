@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}3VRM Recruitment{% endblock %}
+
+
+{% block content %}
+<div class="desktop-visible">	
+	<ul class="menu menu-hover-lines">
+		<li><a href="{% url "homepage" %}">Home</a></li>
+		<li><a href="{% url "about" %}">About 3VRM</a></li>
+		<li><a href="{% url "approach" %}">3VRM Approach</a></li>
+		<li><a href="{% url "services" %}">3VRM Services</a></li>
+		<li class="active"><a href="{% url "jobs" %}">Recruitment</a></li>
+		<li><a href="{% url "news" %}">3VRM News</a></li>
+		<li><a href="{% url "team" %}">3VRM Team</a></li>
+		<li><a href="{% url "contactUs" %}">Contact Us</a></li>
+	</ul>
+</div>
+<div class="container">
+	<div class="jobs" id="jobs-graphic-top">
+		<img src="{% static "media/Jobs-Graphic.png" %}">
+	</div>
+	<div class="jobs" id="jobs-intro">
+		<div class="marketing-site-hero-content">
+			<h1>Join Our Team</h1>
+			<p class="subheader">At 3VRM, we are always looking for enthusiastic people to join our growing team of Associates and Consultants.</p>
+			<p class="subheader">If you're looking for a rewarding and opportunity-filled career with a company at the cutting edge of Third Party and Cyber Risk Management, we'd be keen to hear from you.</p>
+			<a href="#jobs-jump-link" class="round button">find out more</a>
+		</div>
+	</div>
+</div>
+<a id="jobs-jump-link"></a>
+<div class="container">
+	<div class="jobs" id="jobs-list">
+		<div class="marketing-site-hero-content">
+			<h3>Lead Cyber SME / Cyber Risk Monitoring Role</h3>
+			<h5>Minimum skills and competency requirements for Cyber SME / Risk Monitoring Lead roles</h5>
+			<h5>Essential</h5>
+			<ul class="subheader">
+				<li>Experience in supplier assurance and / or Information Technology audit (Must have conducted at least 10 Cyber assurance reviews in the past 2 years)</li>
+				<li>Professional Cyber Security qualifications (e.g. CISSP, CISM) or relevant experience</li>
+				<li>Deep understanding of Cyber Security best practice (e.g. NIST or similar) including (but not limited to the following areas):</li>
+				<ul class="subheader">
+					<li>Cyber Security Risk Management and Governance</li>
+					<li>Protection technologies such as Intrusion Detection and Prevention, Firewall management, End point protection and defence in depth technologies</li>
+					<li>Cloud Computing</li>
+					<li>Access Control including segregation of duties, fraud and toxic access combinations</li>
+					<li>Cryptographic Key Management</li>
+					<li>Payment Card Industry Standards</li>
+					<li>Anti-malware protection</li>
+					<li>Vulnerability scanning and penetration testing</li>
+					<li>Network integrity (segregation, Distributed Denial of Service Protection etc.)</li>
+					<li>Data Leakage Prevention and DLP Vectors</li>
+					<li>Incident Management</li>
+					<li>Cyber Security Resilience and Recovery</li>
+					<li>Secure Software Development</li>
+				</ul>
+				<li>Strong knowledge of cyber security control evaluation, particularly Design Effectiveness Assessment and Operating Effectiveness Testing and being able to conduct robust testing of security concepts</li>
+				<li>Some knowledge of sourcing and supplier management, supplier risk management and procurement</li>
+				<li>Experience with technology operations, risk and controls and  keeping up to date with emerging trends</li>
+				<li>Experience of building and maintaining effective relationships at all levels within client organisations</li>
+				<li>Excellent organisational and communication skills</li>
+				<li>Ability to communicate complex topics to senior stakeholders</li>
+				<li>Able to have complex technical discussions with technical security personnel</li>
+				<li>Seen as a Cyber Security Subject Matter Expert by their peers and across the industry</li>
+				<li>Able to lead and motivate teams to ensure successful delivery</li>
+			</ul>
+			<h5>Desirable</h5>
+			<ul class="subheader">
+				<li>Professional risk management qualifications and certifications</li>
+				<li>Understanding / experience of Security Ratings</li>
+				<li>Understanding of risk management frameworks and compliance activities, with specific understanding of how they relate to the sourcing lifecycle</li>
+				<li>Strong experience of supplier risk management functions and banking regulations (e.g. PRA, FCA, etc.)</li>
+			</ul>
+		</div>
+		<br>
+		<div class="marketing-site-hero-content">
+			<h3>Business Analyst Role</h3>
+			<h5>Minimum skills and competency requirements for Busines Analyst roles</h5>
+			<h5>Essential</h5>
+			<ul class="subheader">
+				<li>Business Analyst Experience, with a track record in delivering appropriate documentation</li>
+				<li>Experience in the delivery of business analysis across programmes and portfolios to ensure the right solutions are developed to meet business needs</li>
+				<li>Strong experience working with 3rd parties, supply chain risk, cyber security supplier risk and the banking sector</li>
+				<li>Able to establish business needs and assesses solutions for strategic initiatives</li>
+				<li>Uses expert knowledge of business area, industry context and business unit to facilitate Executive decision making and investment choices and when/how to structure delivery of the required change</li>
+				<li>Able to work with Executive and key senior stakeholders to help build common understanding of commercial decisions and their impacts, underpinning the achievement of benefits and right business outcomes from programmes</li>
+				<li>Can govern and assure the overall quality of Business Analysis delivery across the project lifecycle for a business area, portfolio or major change programme</li>
+				<li>Can ensure requirements are of appropriate quality and in the right form as the basis for solution design, feasibility assessment and testing</li>
+				<li>Able to facilitate Executive decision making on whether to proceed through the main phases of the delivery lifecycle, driving investment decisions into the right solutions to meet business need</li>
+				<li>Effective and insightful assessment of solutions to meet business needs on major group programmes</li>
+				<li>Can take responsibility for effective and insightful assessment of solutions to meet business needs on major group programmes</li>
+				<li>Able to act as a point of escalation for all analysis activities, strategic and portfolio level escalation of risks, issues and dependencies</li>
+				<li>Intervene in programmes as needed to preserve and protect delivery of business strategy, business outcomes and benefits</li>
+				<li>Must be able to understand, keep up to date and apply industry best practice, quality standards and innovative thinking, foster knowledge sharing and assurance to provide solutions for complex/ significant business or specialist issues/ problems where no precedent may exist</li>
+			</ul>
+			<h5>Desirable</h5>
+			<ul class="subheader">			
+				<li>Experience of change methodology and business analysis experience in the Finance Sector</li>
+			</ul>
+			<br>
+			<br>
+			<h5 class="subheader">For information regarding specific roles, please e-mail Ben, attaching your current CV.</h5>
+			<a href="mailto:ben.dickinson@3vrm.com" class="round button">e-mail ben</a>
+</div>
+{% endblock %}
+
+

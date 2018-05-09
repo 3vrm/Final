@@ -24,6 +24,7 @@ body {
   border-bottom-style: groove;
   border-bottom-width: 0.5px;
   border-bottom-color: #2b4c93;
+  padding-left: 10px;
 
 }
 
@@ -110,8 +111,10 @@ body {
 
 .container {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
 }
+
 .homepage{
   width: 100%;
   flex: 0 50%;
@@ -469,4 +472,24 @@ body {
 #risk{
   padding: 100px;
   width: 80%;
+}
+
+/*rectruitment page */
+
+#jobs-intro{
+    padding: 130px 60px 20px 60px;
+}
+
+.jobs{
+  width: 100%;
+  flex: 0 50%;
+}
+
+#jobs-graphic-top{
+    padding: 100px 60px 20px 60px;
+}
+
+#jobs-list{
+  flex: 100%;
+  padding: 50px;
 }
