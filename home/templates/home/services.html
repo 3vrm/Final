@@ -18,14 +18,22 @@
 	</ul>
 </div>
 <div class="container">
+	<div class="desktop-visible">
 		<div class="services" id="services-graphic">
 			<img src="{% static "media/Services-Graphic.png" %}">
+		</div>
 	</div>
 	<div class="services" id="services-intro">
 		<div class="marketing-site-hero-content">
 			<h1>Our Services</h1>
 			<p class="subheader">The inventory of services we offer is based on our Inventory of Third Party and Vendor Risks™ and leverages our Third Party and Vendor Risk Framework™.</p>
+			<br>
 			<a href="#services-jump-link" class="round button">find out more</a>
+		</div>
+	</div>
+	<div class="mobile-visible">
+		<div class="services" id="services-graphic">
+			<img src="{% static "media/Services-Graphic.png" %}">
 		</div>
 	</div>
 </div>
@@ -87,6 +95,8 @@
 		<div class="marketing-site-hero-content">
 			<p class="subheader">For current 3VRM news, or discover the latest in Information Security and Vendor Risk Management</h4></p>
 			<a href="{% url "news" %}" class="round button">click here</a>
+			<br>
+			<br>
 			<p class="subheader">For information about career opportunities</p>
 			<a href="{% url "jobs" %}" class="round button">click here</a>
 

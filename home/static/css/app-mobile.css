@@ -221,4 +221,43 @@ body {
 }
 
 .approach p{
-  text-align:justify;
+  text-align: justify;
+}
+
+#approach-graphic-bottom {
+  padding: 20px 10px 20px 10px;
+}
+
+/*about page */
+.about h1{
+  text-align: center;
+}
+
+.about p, li, h4{
+  text-align: justify;
+}
+
+#about-graphic-top{
+  padding: 10px;
+}
+
+#about-graphic-breakdown{
+  padding: 10px;
+}
+
+#about-graphic-bottom{
+  padding: 20px 10px 20px 10px;
+}
+
+/* Recruitment */
+#jobs-graphic-top{
+  padding: 10px;
+}
+
+.jobs h1{
+  text-align: center;
+}
+
+.jobs p{
+  text-align: justify;
+}

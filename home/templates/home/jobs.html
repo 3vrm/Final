@@ -18,19 +18,27 @@
 	</ul>
 </div>
 <div class="container">
-	<div class="jobs" id="jobs-graphic-top">
-		<img src="{% static "media/Jobs-Graphic.png" %}">
+	<div class="desktop-visible">
+		<div class="jobs" id="jobs-graphic-top">
+			<img src="{% static "media/Jobs-Graphic.png" %}">#
+		</div>
 	</div>
 	<div class="jobs" id="jobs-intro">
 		<div class="marketing-site-hero-content">
+			<br>
 			<h1>Join Our Team</h1>
 			<p class="subheader">At 3VRM, we are always looking for enthusiastic people to join our growing team of Associates and Consultants.</p>
 			<p class="subheader">If you're looking for a rewarding and opportunity-filled career with a company at the cutting edge of Third Party and Cyber Risk Management, we'd be keen to hear from you.</p>
-			<a href="#jobs-jump-link" class="round button">find out more</a>
+			<br>
+		</div>
+	</div>
+	<div class="mobile-visible">
+		<div class="jobs" id="jobs-graphic-top">
+			<img src="{% static "media/Jobs-Graphic.png" %}">
+			<br>
 		</div>
 	</div>
 </div>
-<a id="jobs-jump-link"></a>
 <div class="container">
 	<div class="jobs" id="jobs-list">
 		<div class="marketing-site-hero-content">
@@ -100,7 +108,9 @@
 				<li>Experience of change methodology and business analysis experience in the Finance Sector</li>
 			</ul>
 			<br>
-			<br>
+			<div class="desktop-visible">
+				<br>
+			</div>
 			<h5 class="subheader">For information regarding specific roles, please e-mail Ben, attaching your current CV.</h5>
 			<a href="mailto:ben.dickinson@3vrm.com" class="round button">e-mail ben</a>
 </div>
