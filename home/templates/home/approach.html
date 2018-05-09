@@ -18,14 +18,29 @@
 	</ul>
 </div>
 <div class="container">
+	<div class="desktop-visible">
 		<div class="approach" id="approach-graphic-top">
 			<img src="{% static "media/approach-graphic.png" %}">
+		</div>
 	</div>
 	<div class="approach" id="approach-intro">
 		<div class="marketing-site-hero-content">
 			<h1>Our Approach</h1>
 			<p class="subheader">Our Third Party and Vendor Risk Framework™ is our proprietary tool for helping organisations to establish the right overall approach to Third Party and Vendor Risk management.</p>
+			<div class="desktop-visible">
+				<a href="#approach-jump-link" class="round button">find out more</a>
+			</div>
+		</div>
+	</div>
+	<div class="mobile-visible">
+		<div class="marketing-site-hero-content">
+			<div class="approach" id="approach-graphic-top">
+				<img src="{% static "media/approach-graphic.png" %}">
+			</div>
+			<br>
 			<a href="#approach-jump-link" class="round button">find out more</a>
+			<p class="subheader">Swipe right to read more</p>
+			<br>
 		</div>
 	</div>
 </div>

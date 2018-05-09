@@ -43,6 +43,10 @@ body {
   text-shadow: 1px 1px 2px #0a0a0a;
 }
 
+.button{
+  background-color: #21388a;
+}
+
 /*menu bar formatting */
 
 .title-bar-left, .title-bar-right {
@@ -83,6 +87,17 @@ body {
   color: #3a3939;
 }
 
+#homepage-graphic{
+  padding: 10px;
+}
+
+.homepage h1{
+  text-align: center;
+}
+
+.homepage p{
+  text-align:justify;
+}
 /*services*/
 
 .flip-card {
@@ -102,7 +117,8 @@ body {
 .flip-card-inner-front,
 .flip-card-inner-back {
   width: 100%;
-  height: 30rem;
+  height: 20rem;
+  padding: 0px 15px 0px 15px;
 }
 
 .flip-card-inner {
@@ -136,6 +152,10 @@ body {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: rgba(63, 81, 181, 0.28);
+  border-radius: 25px;
+  padding: 1rem;
+
 }
 
 .flip-card-inner-front span {
@@ -145,6 +165,7 @@ body {
   padding: 0.25rem 0;
   font-size: 1.25rem;
   font-weight: bold;
+
 }
 
 .flip-card-inner-back {
@@ -188,3 +209,16 @@ body {
 #risk{
   padding: 15px 15px 50px 15px;
 }
+
+/*Approach Page*/
+
+#approach-graphic-top{
+  padding: 10px;
+}
+
+.approach h1{
+  text-align: center;
+}
+
+.approach p{
+  text-align:justify;
