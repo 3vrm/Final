@@ -207,3 +207,10 @@ body {
 #contact-graphic-top{
   padding: 10px;
 }
+
+
+/*footer*/
+footer{
+background-color: rgba(189, 206, 221);
+text-align: center;
+}
