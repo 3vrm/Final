@@ -11,11 +11,11 @@
 	<link href="{% static "css/app-desktop.css" %}" media="screen and (min-width:421px)" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 </head>
- <body>
+<body>
     <div class="desktop-visible">
     	<div class="hero-section">
 			<div class="hero-section-text">
-				<img id="title-image" src="{% static "media\3vrm_final.png" %}">
+				<img id="title-image" src="{% static "media\3vrm_final.png" %}" >
 			</div>
 		</div>
 	</div>
@@ -23,8 +23,7 @@
 		<div class="title-bar-left">
 			<ul class="vertical menu accordion-menu" data-accordion-menu>
 				<li>
-				<a href="#"></button><img id="title-image" src="{% static "media\3vrm_final.png" %}"></a>
-					
+				<a href="#"><img id="title-image" src="{% static "media\3vrm_final.png" %}"></a>
 					<ul class="menu vertical nested">
 						<li><a href="{% url "homepage" %}"><i class="fa fa-home title-bar-logo"></i></a></li>
 						<li><a href="{% url "about" %}">About 3VRM</a></li>
@@ -44,7 +43,11 @@
     	{% block content %}
     	{% endblock %}
     </div>
-    
+    <footer>
+    	<p class="subheader">6th Floor Blackfriars House, Parsonage, Manchester. United Kingdom. M3 2JA. Phone: +44 (0)7796 132462</p>
+    </footer>
+
+
     <script src="{% static "js/vendor/jquery.js" %}"></script>
     <script src="{% static "js/vendor/what-input.js" %}"></script>
     <script src="{% static "js/vendor/foundation.js" %}"></script>
@@ -54,5 +57,5 @@
     	$(document).foundation();
     </script>
     <script src="{% static "js/app.js" %}""></script>
-  </body>
+</body>
 </html>

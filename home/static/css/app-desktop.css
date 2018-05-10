@@ -22,7 +22,7 @@ body {
   font-weight: 500;
   letter-spacing: 1px;
   transition: all 0.35s ease;
-  background-color: rgba(129, 168, 208, 0.4);
+  background-color: rgba(189, 206, 221);
   border-bottom-style: groove;
   border-bottom-width: 0.5px;
   border-bottom-color: #2b4c93;
@@ -494,4 +494,10 @@ body {
 #jobs-list{
   flex: 100%;
   padding: 50px;
+}
+
+/*footer*/
+footer{
+background-color: rgba(189, 206, 221);
+text-align: center;
 }
