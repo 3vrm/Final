@@ -18,17 +18,25 @@
 	</ul>
 </div>
 <div class="container">
-	<div class="contact" id="contact-graphic-top">
-		<img src="{% static "media/contact-graphic.png" %}">
+	<div class="desktop-visible">
+		<div class="contact" id="contact-graphic-top">
+			<img src="{% static "media/contact-graphic.png" %}">
+		</div>
 	</div>
 	<div class="contact" id="contact-intro">
 		<div class="marketing-site-hero-content">
+			<br>
 			<h1>Contact Us</h1>
 			<form role="form" action="" method="post">
 	    		{% csrf_token %}
 	   			 {{ form.as_p }}
 	  			<button class="round button" type="submit">Submit</button>
 			</form>
+		</div>
+	</div>
+	<div class="mobile-visible">
+		<div class="contact" id="contact-graphic-top">
+			<img src="{% static "media/contact-graphic.png" %}">
 		</div>
 	</div>
 </div>

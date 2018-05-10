@@ -103,111 +103,39 @@ body {
 }
 /*services*/
 
+#services-graphic{
+  padding: 10px;
+}
+
+#services-text-bottom{
+  padding: 10px;
+}
+
 .flip-card {
-  -webkit-perspective: 1000;
-          perspective: 1000;
+
+
+}
+
+.disp-card{
+  text-align: center;
+  background: rgba(63, 81, 181, 0.28);
+  border-radius: 25px;
+  padding: 1rem;
+  height: auto;
+}
+
+.disp-card h3{
+  font-weight: bold;
+}
+
+.flip-card {
+  width: 100%;
+  height: auto;
+  padding: 10px 15px 10px 15px;
   border: 0;
   background: transparent;
 }
 
-.flip-card:hover .flip-card-inner,
-.flip-card.hover .flip-card-inner {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-}
-
-.flip-card,
-.flip-card-inner-front,
-.flip-card-inner-back {
-  width: 100%;
-  height: 20rem;
-  padding: 0px 15px 0px 15px;
-}
-
-.flip-card-inner {
-  transition: 0.6s;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  position: relative;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-
-.flip-card-inner-front,
-.flip-card-inner-back {
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.flip-card-inner-front {
-  background-size: 100%;
-  background-position: center center;
-  z-index: 2;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: rgba(63, 81, 181, 0.28);
-  border-radius: 25px;
-  padding: 1rem;
-
-}
-
-.flip-card-inner-front span {
-  width: 100%;
-  text-align: center;
-  background: rgba(254, 254, 254, 0.8);
-  padding: 0.25rem 0;
-  font-size: 1.25rem;
-  font-weight: bold;
-
-}
-
-.flip-card-inner-back {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: center;
-  background: rgba(63, 81, 181, 0.28);
-  border-radius: 25px;
-  padding: 1rem;
-}
-
-.flip-card-inner-back-title {
-  font-weight: bold;
-}
-
-.callout.primary {
-  background-color: transparent;
-}
-
-.flip-card-inner-front span {
-  background: transparent;
-  text-shadow: 0 0 9px white;
-}
-
-.callout  {
-  border: none;
-}
 
 #risk{
   padding: 15px 15px 50px 15px;
@@ -263,4 +191,19 @@ body {
 
 .jobs p{
   text-align: justify;
+}
+
+.jobs h3, h5{
+  font-weight: bold;
+}
+
+/*team*/
+.team-picture{
+  padding: 10px;
+}
+
+/*contact*/
+
+#contact-graphic-top{
+  padding: 10px;
 }
