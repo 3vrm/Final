@@ -123,11 +123,15 @@ body {
 }
 
 #homepage-graphic{
-    padding: 100px 60px 60px 60px;
+    padding: 10vh 60px 60px 60px;    
+}
+
+#homepage-graphic img{
+  width: 50vw;
 }
 
 #homepage-intro{
-    padding: 130px 60px 60px 60px;
+    padding: 10vh 60px 60px 60px;
 }
 
 .marketing-site-hero-content h1 {
@@ -270,6 +274,7 @@ body {
 #service-box1{
   padding:0rem 2rem 0rem 6rem;
 }
+}
 
 #service-box2{
   padding:0rem 2rem 0rem 2rem;
@@ -285,17 +290,21 @@ body {
 }
 
 #services-graphic{
-    padding: 100px 60px 60px 60px;
+    padding: 10vh 60px 60px 60px;
+}
+
+#services-graphic img{
+  width: 50vw;
 }
 
 #services-intro{
-    padding: 130px 60px 60px 60px;
+    padding: 10vh 60px 60px 60px;
 }
 
 .service-box {
   background: url("../media/Glass.png") no-repeat;
   background-size: cover;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
 
 }
 
@@ -304,11 +313,15 @@ body {
 }
 
 #services-graphic-bottom{
-    padding: 70px 60px 100px 60px;
+    padding: 10vh 60px 60px 60px;
+}
+
+#services-graphic-bottom img{
+  width: 50vw;
 }
 
 #services-text-bottom{
-    padding: 100px 20px 60px 40px;
+    padding: 10vh 60px 60px 60px;
 }
 /*about page formatting*/
 
@@ -322,8 +335,12 @@ body {
   flex: 0 50%;
 }
 
+#about-graphic-top img{
+  width: 50vw;
+}
+
 #about-graphic-top{
-    padding: 100px 60px 20px 60px;
+    padding: 10vh 60px 60px 60px;
 }
 
 #about-graphic-breakdown{
@@ -334,21 +351,25 @@ body {
 }
 
 #about-graphic-bottom{
-    padding: 70px 60px 20px 60px;
+    padding: 10vh 60px 60px 60px;
+}
+
+#about-graphic-bottom img{
+  width: 50vw;
 }
 
 #about-intro{
-    padding: 130px 60px 20px 60px;
+    padding: 10vh 60px 60px 60px;
 }
 
 #about-list{
-    padding: 20px 20px 60px 40px;
+    padding: 10vh 60px 60px 60px;
 }
 
 /*team page formatting */
 
 .team-container {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   width: 80%;
   margin: auto;
@@ -359,10 +380,10 @@ body {
   margin: auto;
 }
 
-.team-text {
-  padding: 50px 50px 50px 0px;
-}
 
+.team-member {
+  display: flex;
+}
 /*approach page formatting*/
 
 #approach-desktop{
@@ -409,7 +430,7 @@ body {
 }
 
 .approach-height {
-  height: 22rem;
+  height: 25rem;
 }
 
 .approach-assessment {
@@ -435,31 +456,44 @@ body {
 }
 
 #approach-graphic-top{
-    padding: 100px 60px 100px 60px;
+  padding: 10vh 60px 60px 60px;
+}
+
+#approach-graphic-top img{
+  width: 50vw;
 }
 
 #approach-intro{
-    padding: 130px 60px 100px 60px;
+    padding: 10vh 60px 60px 60px;
 }
 
 #approach-graphic-bottom{
-    padding: 70px 60px 100px 60px;
+    padding: 10vh 60px 60px 60px;
 }
 
+#approach-graphic-bottom img{
+  width: 50vw;
+}
 #approach-text-bottom{
-    padding: 100px 20px 60px 40px;
+    padding: 10vh 60px 60px 60px;
 }
 
 /*news feed page*/
-.twitter-feed{
-  padding: 5%;
-  margin: auto;
+.news{
+  padding-top: 10vh;
+  padding-right:10vw;
+  padding-left:1vw;}
+
+.news-twitter{
+  padding-top: 10vh;
+  padding-left: 10vw;
+  padding-right: 1vw;
 }
 
 /*contact us page */
 
 #contact-intro{
-    padding: 60px 60px 20px 60px;
+  padding: 10vh 60px 60px 60px;
 }
 
 .contact{
@@ -468,7 +502,11 @@ body {
 }
 
 #contact-graphic-top{
-    padding: 100px 60px 20px 60px;
+    padding: 10vh 60px 60px 60px;
+}
+
+#contact-graphic-top img{
+    width: 50vw;
 }
 
 #risk{
@@ -479,7 +517,7 @@ body {
 /*rectruitment page */
 
 #jobs-intro{
-    padding: 130px 60px 20px 60px;
+    padding: 10vh 60px 60px 60px;
 }
 
 .jobs{
@@ -488,7 +526,11 @@ body {
 }
 
 #jobs-graphic-top{
-    padding: 100px 60px 20px 60px;
+    padding: 10vh 60px 60px 60px;
+}
+
+#jobs-graphic-top img{
+  width:50vw;
 }
 
 #jobs-list{
