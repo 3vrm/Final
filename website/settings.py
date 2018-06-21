@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'foundation',
     'home',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -63,6 +64,24 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+
+AWS_S3_OBJECT_PARAMETERS = {
+    'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+    'CacheControl': 'max-age=94608000',
+}
+
+AWS_STORAGE_BUCKET_NAME = '3vrm'
+AWS_S3_REGION_NAME = 'eu-west-2'  # e.g. us-east-2
+AWS_ACCESS_KEY_ID = 'AKIAJOVH65XHKHW5OZBQ'
+AWS_SECRET_ACCESS_KEY = 'zNuLMB97E/rTbW5cP3sUhu2fD5e0dh2Jysr3Qy9g'
+
+# Tell django-storages the domain to use to refer to static files.
+AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
+
+# Tell the staticfiles app to use S3Boto3 storage when writing the collected static files (when
+# you run `collectstatic`).
+STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 ROOT_URLCONF = 'website.urls'
 
@@ -132,11 +151,23 @@ USE_L10N = True
 USE_TZ = True
 
 
+ALLOWED_HOSTS = ['*']
+
+STATIC_URL = '/static/'
+
+STATICFILES_LOCATION = 'static'
+STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = '/var/www/vhosts/3vrm.com/httpdocs/app/'
+#STATIC_URL = '/var/www/vhosts/3vrm.com/httpdocs/app/'
 
-ALLOWED_HOSTS = ['*']
-STATIC_ROOT = os.path.join(BASE_DIR, '../static_content/static')
-MEDIA_ROOT = os.path.join(BASE_DIR, '../static_content/media')
+
+#STATIC_ROOT = os.path.join(BASE_DIR, '../static_content/static')
+#MEDIA_ROOT = os.path.join(BASE_DIR, '../static_content/media')
+
+
+#STATIC_ROOT = os.path.join(BASE_DIR, '../static_content/static')
+#MEDIA_ROOT = os.path.join(BASE_DIR, '../static_content/media')
